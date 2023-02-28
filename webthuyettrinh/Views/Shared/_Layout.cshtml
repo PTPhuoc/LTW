@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/Site.css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <form class="vien">
+        <div class="vientrong">
+            <a href='@Url.Action("Index", "Home")' class="btnt" id="link">BẢO TÀN NGHỆ THUẬT</a>
+            <a href='@Url.Action("Mt", "Home")' class="mt" id="link">MỸ THUẬT</a>
+            <a href='@Url.Action("An", "Home")' class="an" id="link">ÂM NHẠC</a>
+            <a href='@Url.Action("Ab", "Home")' class="ab" id="link">CHÚNG TÔI</a>
+            <a href='@Url.Action("Dn", "Home")' class="dn" id="link">ĐĂNG NHẬP</a>
+        </div>
+    </form>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>NHÓM 11 LẬP TRÌNH WEB</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
