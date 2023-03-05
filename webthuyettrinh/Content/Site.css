@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-size: 18px;
+    background-color:lightcyan;
 }
 
 .boxbtnt {
@@ -15,7 +16,6 @@
 .vien {
     background-color: lightgreen;
     padding: 25px;
-    width: 100%;
 }
 
 .vientrong {
@@ -57,7 +57,7 @@
     width:40%;
     height:350px;
     background-color: white;
-    opacity:0.6;
+    opacity:0.8;
 }
 
 .textinbox {
@@ -75,15 +75,22 @@
 
 .boxtextan{
     position:absolute;
+    background-color:bisque;
     width:60%;
+    height:98%;
     right:25px;
-    transform:translateY(-270px);
-    padding-right:45px;
+    transform:translateY(-265px);
+    margin-right:18px;
+    padding-left:20px;
 }
 
-.nut{
-    border-radius:5px;
-    padding:20px;
+.nut {
+    border-radius: 10px;
+    border: 0.5px solid black;
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    background-color:azure;
 }
 .nut:hover{
     background-color:mediumseagreen;

@@ -1,2 +1,30 @@
 ﻿body {
+    margin:0;
+    padding:0;
+    font-size:18px;
 }
+
+.khung {
+    background-color: bisque;
+}
+
+.flex-container{
+    display:flex;
+}
+
+.box1 {
+
+}
+
+.video1{
+    padding-right:25px;
+}
+
+box2{
+    padding-left:25px;
+}
+
+.tieude{
+    text-align:center;
+}
+
